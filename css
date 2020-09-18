@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+}
+
+h1{
+  color: white;
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2{
+  color: Black;
+  font-family: Overpass;
+  font-weight: 500;
+}
+
+h3{
+  font-family: Chivo;
+  color: black;
+  font-size: 25px;
+}
+
+.behind{
+  color:white;
+  font-family: Overpass;
+  font-weight: 600;
+}
+
+.banner{
+  background-image: url("imagens/banner.jpg");
+  background-size: cover;
+  padding: 150px;
+  text-align: center;
+}
+
+.test{
+  color:gold;
+  font-size: 20px;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(black);
+  width: 200px;
+}
+
+.card img{
+  margin: 5px;
+  width: 180px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h3, p{
+  padding: 3px;
+  font-family: Chivo;
+}
+
+.card p{
+  color: gray;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.footer{
+  background: #404042;
+  color: white;
+  padding: 0px 10px;
+}
+
+.footer p{
+  padding: 100px;
+}
